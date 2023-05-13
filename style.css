@@ -1,0 +1,111 @@
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: url('bg.jpg') no-repeat center center/cover;
+    background-color: transparent;
+
+}
+
+
+header {
+    background-color: #f5f5f5;
+    padding: 30px;
+    text-align: center;
+}
+
+header::before{
+    content: "";
+    position: absolute;
+    width: 100%; 
+    height: 100%;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: 100px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: rgb(21, 167, 224);
+}
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+main img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#donate{
+    background-color:  #a03000;
+    color: white;
+    border-radius: 50px;
+    border-color: #a03000;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+#donate:hover{
+    background-color: #202179;
+}
+
+img{
+    width: 5%;
+    position: absolute;
+    left: 10rem;
+    top: 0.5rem;
+}
+footer{
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    bottom:0.05rem;
+}
